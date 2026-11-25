@@ -4,37 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Prestação de Contas 2026 | Secretaria de Desenvolvimento Regional de Ouro Fino Paulista</title>
-<style>
-:root{--navy:#122b45;--blue:#1d5278;--cyan:#2d91a8;--gold:#d5a84b;--ink:#203044;--muted:#667789;--paper:#f3f6f9;--line:#dce4eb;--white:#fff;--green:#397b68}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 "Segoe UI",Arial,sans-serif}
-.topbar{background:var(--navy);color:#fff;padding:14px 4vw;display:flex;justify-content:space-between;gap:16px;align-items:center;position:sticky;top:0;z-index:10;box-shadow:0 4px 18px #10263c33}
-.brand{font-weight:800;letter-spacing:.04em}.brand small{display:block;font-size:11px;color:#c4d5e3;font-weight:500}
-.topbar nav{display:flex;gap:14px;flex-wrap:wrap}.topbar a{color:#eaf3fa;text-decoration:none;font-size:12px}.topbar a:hover{color:#f3cb73}
-main{max-width:1280px;margin:auto;padding:24px}
-.header-image{width:100%;max-height:150px;object-fit:contain;background:#fff;border-radius:12px;margin-bottom:18px;border:1px solid var(--line)}
-.hero{background:linear-gradient(120deg,#122b45,#1d5278 72%,#267f91);color:white;border-radius:18px;padding:38px 36px;min-height:270px;display:flex;align-items:center;justify-content:space-between;gap:24px;overflow:hidden}
-.hero .eyebrow{color:#f2cf82;font-weight:700;letter-spacing:.15em;font-size:12px}.hero h1{font-size:clamp(30px,4vw,52px);line-height:1.08;margin:12px 0}.hero p{max-width:700px;color:#dce9f2;margin:0}.hero-mark{font-size:100px;opacity:.15}
-.section{margin:32px 0;scroll-margin-top:90px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:16px}.kicker{font-size:11px;color:var(--cyan);font-weight:800;letter-spacing:.16em}.section h2{font-size:25px;margin:3px 0;color:var(--navy)}.section-head p{margin:0;color:var(--muted);font-size:13px}
-.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
-.card,.panel{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 5px 18px #20304408}
-.metric{border-top:4px solid var(--cyan)}.metric strong{display:block;font-size:32px;color:var(--navy);line-height:1.15}.metric span{font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.04em}.metric small{display:block;color:var(--muted);margin-top:5px}
-.callout{background:#eaf2f7;border-left:4px solid var(--cyan);padding:16px 18px;border-radius:8px}
-.phase{border-top:4px solid var(--gold)}.phase b{color:var(--blue);display:block;font-size:12px;letter-spacing:.08em}.phase h3{margin:7px 0;color:var(--navy)}
-.list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 22px;padding:0;list-style:none}.list li{padding:8px 0;border-bottom:1px solid var(--line)}.list li::before{content:"✓";color:var(--green);font-weight:900;margin-right:9px}
-.pill{display:inline-block;background:#e8f1f6;color:#245675;border-radius:99px;padding:4px 9px;font-size:11px;font-weight:700;margin:3px}\n.service-card{min-height:64px;display:flex;flex-direction:column;justify-content:center;gap:5px}\n.service-card.secretaria{background:#b4232f;border:1px solid #8f1722;border-left:5px solid #76121b;color:#fff}\n.service-card.secretaria strong{color:#fff}\n.service-owner{font-size:9px;line-height:1.3;letter-spacing:.045em;font-weight:800;color:#ffe3e5}
-table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden}th,td{text-align:left;padding:11px 13px;border-bottom:1px solid var(--line)}th{background:var(--navy);color:white;font-size:12px}td{font-size:13px}tr:last-child td{border-bottom:0}
-.bar-row{display:grid;grid-template-columns:150px 1fr 42px;gap:10px;align-items:center;margin:12px 0;font-size:13px}.bar{height:12px;background:#e7edf2;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--cyan),var(--blue));border-radius:99px}
-.person-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
-.person{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.person img{width:100%;height:180px;object-fit:contain;object-position:center;background:#eef2f5;padding:5px;display:block;color:#4f6476;text-align:center;font-size:11px}.person div{padding:10px 12px}.person b{display:block;color:var(--navy)}.person small{color:var(--muted)}
-.team-block{margin:16px 0}.team-block h3{color:var(--navy);margin:0 0 10px}.team-block>p{margin:0 0 12px;color:var(--muted);font-size:13px}.team-card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;min-width:0}.team-card img{width:100%;height:180px;object-fit:contain;object-position:center;padding:5px;display:block;background:#eef2f5}.team-card div{padding:10px 12px}.team-card b{display:block;color:var(--navy)}.team-card small{color:var(--muted)}.team-people{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:12px}.secretary-card{display:grid;grid-template-columns:180px 1fr;gap:18px;align-items:center}.secretary-card img{width:100%;height:180px;object-fit:contain;object-position:center;padding:5px;background:#eef2f5;border-radius:10px}.manager-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.ods-card{display:flex;gap:14px;align-items:center}.ods-card img{width:112px;height:112px;object-fit:contain;flex:0 0 112px}.ods-card h3{margin:4px 0}.ods-card p{margin:0}
-.phase-image{width:100%;height:112px;object-fit:contain;background:#eef2f5;border:1px solid var(--line);border-radius:8px;margin:8px 0 2px;display:block}.method-image{width:100%;max-height:150px;object-fit:contain;background:#eef2f5;border:1px solid var(--line);border-radius:8px;margin:10px 0;display:block}.photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.photo{background:white;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo img{width:100%;height:190px;object-fit:cover;background:#e4eaf0;display:block;color:#40576b}.photo div{padding:12px;font-weight:700;color:var(--navy)}.photo small{display:block;color:var(--muted);font-weight:400}
-.footer-image{width:100%;max-height:150px;object-fit:contain;background:white;border:1px solid var(--line);border-radius:12px;margin-top:24px}
-footer{background:var(--navy);color:#dce8f1;text-align:center;padding:20px;border-radius:14px;margin-top:14px;font-size:12px}
-.note{font-size:12px;color:var(--muted)}.highlight{color:var(--blue);font-weight:800}
-@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.person-grid,.team-people{grid-template-columns:repeat(3,minmax(0,1fr))}.manager-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.topbar{position:static}}
-@media(max-width:600px){main{padding:14px}.hero{padding:25px 20px}.hero-mark{display:none}.grid,.grid.two,.grid.three,.list{grid-template-columns:1fr}.person-grid,.team-people{grid-template-columns:repeat(2,minmax(0,1fr))}.manager-grid{grid-template-columns:1fr 1fr}.secretary-card{grid-template-columns:110px 1fr}.secretary-card img{height:145px}.ods-card img{width:82px;height:82px;flex-basis:82px}.photo-grid{grid-template-columns:1fr}.topbar{display:block}.topbar nav{margin-top:10px}.bar-row{grid-template-columns:105px 1fr 30px;font-size:11px}.section h2{font-size:21px}}
-@media print{.topbar{display:none}body{background:#fff}.card,.panel{box-shadow:none;break-inside:avoid}.section{break-inside:avoid}main{max-width:none;padding:10px}.hero{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="topbar">
@@ -49,11 +19,12 @@ footer{background:var(--navy);color:#dce8f1;text-align:center;padding:20px;borde
   <div><div class="eyebrow">EXERCÍCIO 2026 · PRESTAÇÃO DE CONTAS</div>
     <h1>Secretaria de Desenvolvimento Regional de<br>Ouro Fino Paulista</h1>
     <p>Resultados, organização e inteligência operacional. Uma Regional que transforma demandas em resultados.</p>
+  </div>
 </section>
 
 <section class="section" id="visao">
  <div class="section-head"><div><div class="kicker">01 · VISÃO GERAL</div><h2>Uma Regional que transforma demandas em resultados</h2>
- <p>A Regional conecta as necessidades da população à execução dos serviços de zeladoria e manutenção urbana.</p>
+ <p>A Regional conecta as necessidades da população à execução dos serviços de zeladoria e manutenção urbana.</p></div></div>
  <div class="grid three">
   <div class="card metric"><strong>6</strong><span>BAIRROS ATENDIDOS</span></div>
   <div class="card metric"><strong>19</strong><span>TIPOS DE SERVIÇO PRESTADOS</span></div>
@@ -71,13 +42,16 @@ footer{background:var(--navy);color:#dce8f1;text-align:center;padding:20px;borde
  </div>
  <p>Compromisso: transformar demandas em ações concretas, aproximando a Prefeitura da população e promovendo bairros mais organizados, seguros e bem cuidados.</p>
  <div class="panel"><h3>Área de abrangência</h3>
-  <div class="grid three">
-   <div><span class="pill">01</span> Ouro Fino Paulista <small>(88 vias cadastradas)</small></div><div><span class="pill">02</span> Itrapoá <small>(43 vias cadastradas)</small></div><div><span class="pill">03</span> KM4 <small>(17 vias cadastradas)</small></div>
-   <div><span class="pill">04</span> Casa Vermelha <small>(11 vias cadastradas)</small></div><div><span class="pill">05</span> Pouso Alegre <small>(48 vias cadastradas)</small></div><div><span class="pill">06</span> Somma <small>(28 vias cadastradas)</small></div>
-  <div><span class="pill">TOTAL</span> 235 Vias cadastradas (avenidas, ruas, travessas, escadões e vielas)<small></div><div>
-  </div>
-
- <p><center><img src="mapa 01.png"></img></center></p>
+   <div class="grid three">
+    <div><span class="pill">01</span> Ouro Fino Paulista <small>(88 vias cadastradas)</small></div>
+    <div><span class="pill">02</span> Itrapoá <small>(43 vias cadastradas)</small></div>
+    <div><span class="pill">03</span> KM4 <small>(17 vias cadastradas)</small></div>
+    <div><span class="pill">04</span> Casa Vermelha <small>(11 vias cadastradas)</small></div>
+    <div><span class="pill">05</span> Pouso Alegre <small>(48 vias cadastradas)</small></div>
+    <div><span class="pill">06</span> Somma <small>(28 vias cadastradas)</small></div>
+    <div><span class="pill">TOTAL</span> 235 Vias cadastradas (avenidas, ruas, travessas, escadões e vielas)</div>
+   </div>
+  </div> <p><center><img src="mapa 01.png" alt="Mapa da área de abrangência" style="max-width:100%;height:auto"></img></center></p>
 </section>
 
 <section class="section">
@@ -99,8 +73,8 @@ footer{background:var(--navy);color:#dce8f1;text-align:center;padding:20px;borde
  <div class="grid three">
   <div class="card phase"><b>FASE 1</b><h2>Consolidação em planilhas</h2><p>Consolidação manual; aproximadamente quatro dias para reunir dados e produzir indicadores.</p><img class="phase-image" src="planilha.png" alt="Planilha de consolidação dos dados"></div>
   <div class="card phase"><b>FASE 2</b><h2>Sistema em HTML</h2><p>Sistema em HTML para organizar registros e gerar planilhas Excel.</p><img class="phase-image" src="os_exportação.png" alt="Sistema HTML e exportação das Ordens de Serviço">
-   <div class="callout" style="margin-top:12px"><b><H2>Problema encontrado</H2></b><p>Na fase 2, as ruas, avenidas e seus elementos estavam armazenados diretamente dentro do arquivo HTML. Com o crescimento da estrutura, o navegador começou a apresentar estouro de pilha (<i>Stack Overflow</i>).</p><img class="phase-image" src="codigo_html.png" alt="Código HTML da estrutura inicial"></div>
-   <h2><p><b>Solução adotada:</b> </h2> separar os dados da aplicação, criando um banco de dados externo para consulta e inserção das vias nas Ordens de Serviço e outro banco de dados para armazenar as demandas das Ordens de Serviço.</p>
+   <div class="callout" style="margin-top:12px"><h3>Problema encontrado</h3><p>Na fase 2, as ruas, avenidas e seus elementos estavam armazenados diretamente dentro do arquivo HTML. Com o crescimento da estrutura, o navegador começou a apresentar estouro de pilha (<i>Stack Overflow</i>).</p><img class="phase-image" src="codigo_html.png" alt="Código HTML da estrutura inicial"></div>
+   <p><b>Solução adotada:</b> separar os dados da aplicação, criando um banco de dados externo para consulta e inserção das vias nas Ordens de Serviço e outro banco de dados para armazenar as demandas das Ordens de Serviço.</p>
   </div>
   <div class="card phase"><b>FASE 3</b><h2>Integração e análise</h2><p>Integração da base de vias públicas com a base de Ordens de Serviço.</p><img class="phase-image" src="ordem_de_servico.png" alt="Ordem de Serviço integrada à base de vias"></div>
  </div>
@@ -117,8 +91,8 @@ footer{background:var(--navy);color:#dce8f1;text-align:center;padding:20px;borde
  <div class="callout"><b>Exemplo documentado — Rua Manoel Monteiro</b><br>Conhecida como Rua da Merenda, apresenta continuidade modificada pelas obras do Rodoanel. O levantamento também identificou vias sem denominação oficial, alterações de continuidade decorrentes de obras públicas, divergências de nomenclatura, ruas com nomes semelhantes em bairros distintos e a necessidade de inclusão de novas vielas e escadões. A base territorial é um processo permanente de revisão, validação e aperfeiçoamento.</div>
  <h3>Quantificação e inteligência territorial</h3>
  <div class="grid two">
-  <div class="card"><span class="kicker"><h3>LEVANTAMENTO INICIAL EM MAPAS IMPRESSOS</h3></span><div class="grid two"><div><strong style="font-size:30px">1.058</strong><br>Ruas</div><div><strong style="font-size:30px">43</strong><br>Avenidas</div></div></div>
-  <div class="card"><span class="kicker"><h3>ESTRUTURA ATUAL DO CADASTRO</h3></span><div class="grid"><div><strong>1.243</strong><br>Ruas</div><div><strong>47</strong><br>Travessas</div><div><strong>19</strong><br>Vielas</div><div><strong>39</strong><br>Escadões</div><div><strong>33</strong><br>Avenidas</div></div></div>
+  <div class="card"><h3 class="kicker">LEVANTAMENTO INICIAL EM MAPAS IMPRESSOS</h3><div class="grid two"><div><strong style="font-size:30px">1.058</strong><br>Ruas</div><div><strong style="font-size:30px">43</strong><br>Avenidas</div></div></div>
+  <div class="card"><h3 class="kicker">ESTRUTURA ATUAL DO CADASTRO</h3><div class="grid"><div><strong>1.243</strong><br>Ruas</div><div><strong>47</strong><br>Travessas</div><div><strong>19</strong><br>Vielas</div><div><strong>39</strong><br>Escadões</div><div><strong>33</strong><br>Avenidas</div></div></div>
  </div>
  <p class="note">A ampliação do cadastro incorporou novas categorias territoriais, além de atualizar a quantidade de ruas e avenidas.</p>
 </section>
@@ -138,10 +112,10 @@ footer{background:var(--navy);color:#dce8f1;text-align:center;padding:20px;borde
   <div class="card">01 · Capinação</div><div class="card">02 · Cata-bagulho</div><div class="card">03 · Poda de árvores</div>
   <div class="card">04 · Recolha de capinação</div><div class="card">05 · Descarte irregular</div><div class="card">06 · Drenagem</div>
   <div class="card">07 · Desassoreamento</div><div class="card">08 · Limpeza de boca de lobo e boca de leão</div><div class="card">09 · Troca de tampa e reparo de gradil</div>
-  <div class="card service-card secretaria"><strong>10 · Tapa-buraco </strong><span class="service-owner">SECRETARIA DE ZELADORIA E MANUTENÇÃO URBANA</span></div><div class="card">11 · Manutenção e reparo em vias</div><div class="card">12 · Nivelamento</div>
+  <div class="card service-card secretaria"><strong>10 · Tapa-buraco</strong><span class="service-owner">Secretaria de Zeladoria e Manutenção Urbana</span></div><div class="card">11 · Manutenção e reparo em vias</div><div class="card">12 · Nivelamento</div>
   <div class="card">13 · Construção</div><div class="card">14 · Remoção de árvores</div><div class="card">15 · Manutenção e limpeza de mobiliário urbano</div>
-  <div class="card service-card secretaria"><strong>16 · Iluminação pública </strong><span class="service-owner">SECRETARIA DE ZELADORIA E MANUTENÇÃO URBANA</span></div><div class="card">17 · Manutenção em ponto de ônibus</div><div class="card">18 · Remoção de ponto de ônibus</div>
-  <div class="card service-card secretaria"><strong>19 · Caminhão-pipa </strong><span class="service-owner">SECRETARIA DE ZELADORIA E MANUTENÇÃO URBANA</span></div><div class="card">20 · Caiação</div><div class="card">21 · Fiscalização</div><div class="card">22 · Varrição de ruas</div>
+  <div class="card service-card secretaria"><strong>16 · Iluminação pública</strong><span class="service-owner">Secretaria de Zeladoria e Manutenção Urbana</span></div><div class="card">17 · Manutenção em ponto de ônibus</div><div class="card">18 · Remoção de ponto de ônibus</div>
+  <div class="card service-card secretaria"><strong>19 · Caminhão-pipa</strong><span class="service-owner">Secretaria de Zeladoria e Manutenção Urbana</span></div><div class="card">20 · Caiação</div><div class="card">21 · Fiscalização</div><div class="card">22 · Varrição de ruas</div>
  </div>
  <p class="note">A apresentação mantém a classificação e a nomenclatura do material de prestação de contas.</p>
 </section>
@@ -246,17 +220,16 @@ footer{background:var(--navy);color:#dce8f1;text-align:center;padding:20px;borde
   <h3>Equipes e áreas de atuação</h3>
   <div class="grid two">
    <div class="card"><b>ADMINISTRATIVO</b><div class="team-people" style="margin-top:12px">
-    <article class="team-card"><img src="gislene01.png" alt="Gislene"><div><b>Gislene</b><small>Recursos Humanos (RH) e Finanças.</div></small></article>
-    <article class="team-card"><img src="Meire01.png" alt="Meire"><div><b>Meire</b><small>Recursos Humanos (RH) e documentação.</div></small></article>
-    <article class="team-card"><img src="Rosani01.png" alt="Rosani"><div><b>Rosani</b><small>Atendimento ao público, organização e distribuição das Ordens de Serviço.</div></small></article>
-    <article class="team-card"><img src="Márcio Freitas01.png" alt="Márcio Freitas"><div><b>Márcio Freitas</b><small>Analista Ambiental</div></small></article>
-    <article class="team-card"><img src="Luiz Polita.png" alt="Luiz Polita"><div><b>Luiz Polita</b><small>Agente Fiscal /Dados/ Estatística</div></small></article>
-   
+    <article class="team-card"><img src="gislene01.png" alt="Gislene"><div><b>Gislene</b><small>Recursos Humanos (RH) e Finanças.</small></div></article>
+    <article class="team-card"><img src="Meire01.png" alt="Meire"><div><b>Meire</b><small>Recursos Humanos (RH) e documentação.</small></div></article>
+    <article class="team-card"><img src="Rosani01.png" alt="Rosani"><div><b>Rosani</b><small>Atendimento ao público, organização e distribuição das Ordens de Serviço.</small></div></article>
+    <article class="team-card"><img src="Márcio Freitas01.png" alt="Márcio Freitas"><div><b>Márcio Freitas</b><small>Analista Ambiental</small></div></article>
+    <article class="team-card"><img src="Luiz Polita.png" alt="Luiz Polita"><div><b>Luiz Polita</b><small>Agente Fiscal /Dados/ Estatística</small></div></article>
    </div></div>
-   <div class="card"><b>CORREIOS</b><div class="team-people" style="margin-top:12px"><article class="team-card"><img src="Leni01.png" alt="Leni"><div><b>Leni</b></div></article></div></div>
-   <article class="team-card"><img src="Luiz Polita.png" alt="Luiz Polita"><div><b>Luiz Polita</b><small>Agente Fiscal /Dados/ Estatística</div></small></article></div>
-
-
+   <div class="card"><b>CORREIOS</b><div class="team-people" style="margin-top:12px">
+    <article class="team-card"><img src="Leni01.png" alt="Leni"><div><b>Leni</b></div></article>
+   </div></div>
+   <article class="team-card"><img src="Luiz Polita.png" alt="Luiz Polita"><div><b>Luiz Polita</b><small>Agente Fiscal /Dados/ Estatística</small></div></article>
    <div class="card"><b>CAPINAÇÃO</b><div class="team-people" style="margin-top:12px">
     <article class="team-card"><img src="Carlos Roberto01.png" alt="Carlos"><div><b>Carlos</b></div></article>
     <article class="team-card"><img src="Célio01.png" alt="Célio"><div><b>Célio</b></div></article>
@@ -269,16 +242,14 @@ footer{background:var(--navy);color:#dce8f1;text-align:center;padding:20px;borde
     <article class="team-card"><img src="Sebastião01.png" alt="Sebastião"><div><b>Sebastião</b></div></article>
     <article class="team-card"><img src="allin01.png" alt="Allin"><div><b>Allin</b></div></article>
    </div></div>
-   <div class="card"><b>DRENAGEM / MOBILIÁRIO / PONTOS DE ÔNIBUS</b><div class="team-people" style="margin-top:12px"><article class="team-card"><img src="Luiz Ventura01.png" alt="Luiz Ventura"><div><b>Luiz Ventura</b></div></article></div></div>
+   <div class="card"><b>DRENAGEM / MOBILIÁRIO / PONTOS DE ÔNIBUS</b><div class="team-people" style="margin-top:12px">
+    <article class="team-card"><img src="Luiz Ventura01.png" alt="Luiz Ventura"><div><b>Luiz Ventura</b></div></article>
+   </div></div>
    <div class="card"><b>VARRIÇÃO</b><div class="team-people" style="margin-top:12px">
     <article class="team-card"><img src="Aparecida01.png" alt="Aparecida"><div><b>Aparecida</b></div></article>
     <article class="team-card"><img src="Sônia01.png" alt="Sônia"><div><b>Sônia</b></div></article>
    </div></div>
    <div class="card"><b>CAIAÇÃO</b><p>Frente de trabalho</p></div>
- 
-  </div>
- </div>
-
    <article class="team-card"><img src="mari.png" alt="Mari"><div><b>Mari</b><small>Limpeza e Cozinha</small></div></article>
   </div>
  </div>
